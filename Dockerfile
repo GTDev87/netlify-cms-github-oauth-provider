@@ -15,4 +15,6 @@ WORKDIR .
 ADD ./index.js .
 ADD ./package.json .
 
+RUN yarn install
+
 ENTRYPOINT yarn start
