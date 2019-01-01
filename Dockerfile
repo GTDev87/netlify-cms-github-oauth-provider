@@ -12,9 +12,9 @@ RUN apk update && \
 WORKDIR .
 
 # src file
-ADD ./index.js .
-ADD ./package.json .
+ADD index.js .
+ADD package.json .
 
-RUN yarn install
+RUN yarn
 
 ENTRYPOINT yarn start
