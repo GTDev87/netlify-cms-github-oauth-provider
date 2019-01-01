@@ -75,3 +75,9 @@ backend:
 ## 3) Push
 
 Basic instructions for pushing to heroku are available in the [original blog post](http://www.vxk.cz/tips/2017/05/18/netlify-cms/).
+
+## tagged docker container
+
+<!-- docker tag frontend stacksmithstudio/stacksmithstudio-site -->
+docker tag netlify-cms-github-oauth-provider GTDev87/netlify-cms-github-oauth-provider
+docker push GTDev87/netlify-cms-github-oauth-provider
